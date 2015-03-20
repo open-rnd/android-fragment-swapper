@@ -1,0 +1,1 @@
+include ':fragment.swapper', ':fragment.swapper.sample.app'

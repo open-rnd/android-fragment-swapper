@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FragmentSwapperSampleApp</string>
+    <string name="next_screen">Next</string>
+    <string name="next_screen_no_animate">Next (no animate)</string>
+    <string name="close">Close</string>
+    <string name="close_no_animate">Close (no animate)</string>
+    <string name="add_to_back_stack">Add to BackStack</string>
+    <string name="main_context">Main context</string>
+
+</resources>

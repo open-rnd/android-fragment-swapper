@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="@dimen/fragment_text"
+        android:gravity="center_horizontal"
+        android:textColor="@color/screen_text"/>
+
+    <CheckBox
+        android:id="@+id/addToBackStack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/add_to_back_stack"/>
+
+    <CheckBox
+        android:id="@+id/mainContext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/addToBackStack"
+        android:text="@string/main_context"/>
+
+    <Button
+        android:id="@+id/nextScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/next_screen"/>
+
+    <Button
+        android:id="@+id/nextScreenNoAnimate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/nextScreen"
+        android:text="@string/next_screen_no_animate"/>
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/closeNoAnimate"
+        android:text="@string/close"/>
+
+    <Button
+        android:id="@+id/closeNoAnimate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/close_no_animate"/>
+
+</RelativeLayout>

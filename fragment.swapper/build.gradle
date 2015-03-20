@@ -1,0 +1,35 @@
+import java.util.regex.Pattern
+
+apply plugin: 'com.android.library'
+apply plugin: 'maven'
+
+def groupId = "pl.openrnd.android"
+def artifactId = "fragmentsswapper"
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 21
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+        }
+        release {
+            minifyEnabled false
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:support-v4:21.0.+'
+    compile 'com.google.android.gms:play-services:+'
+    compile group: "pl.openrnd.android", name: "utils", version: "1.0.1", changing: true
+}
+
+

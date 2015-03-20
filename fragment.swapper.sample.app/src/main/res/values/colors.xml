@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="screen_1">#FF0000</color>
+    <color name="screen_2">#00FF00</color>
+    <color name="screen_3">#0000FF</color>
+    <color name="screen_4">#FF00FF</color>
+    <color name="screen_text">#FFFFFF</color>
+</resources>
